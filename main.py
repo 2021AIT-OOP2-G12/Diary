@@ -2,14 +2,19 @@ from diaries.DiarySample import DiarySample
 from diaries.YokoyamaDiary import YokoyamaDiary
 from diaries.ToyoshimaDiary import ToyoshimaDiary
 from diaries.TamakoshiDiary import TamakoshiDiary
-
+from diaries.SugisakaDiary import SugisakaDiary
+from diaries.EvafirstDiary import EvafirstDiary
+from diaries.NakayamaDiary import NakayamaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
   DiarySample(),
   YokoyamaDiary(),
   ToyoshimaDiary(),
-  TamakoshiDiary()
+  TamakoshiDiary(),
+  SugisakaDiary(),
+  EvafirstDiary(),
+  NakayamaDiary()
 ] 
 
 for d in diaries:
