@@ -5,6 +5,7 @@ from diaries.TamakoshiDiary import TamakoshiDiary
 from diaries.SugisakaDiary import SugisakaDiary
 from diaries.EvafirstDiary import EvafirstDiary
 from diaries.NakayamaDiary import NakayamaDiary
+from diaries.TakakiDiary import TakakiDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
@@ -14,7 +15,8 @@ diaries = [
   TamakoshiDiary(),
   SugisakaDiary(),
   EvafirstDiary(),
-  NakayamaDiary()
+  NakayamaDiary(),
+  TakakiDiary()
 ] 
 
 for d in diaries:
